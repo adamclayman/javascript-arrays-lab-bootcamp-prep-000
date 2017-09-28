@@ -10,6 +10,14 @@ function destructivelyAppendKitten(kitten) {
   kittens.push(kitten);
   return kittens;
 }
+function destructivelyRemoveFirstKitten() {
+  kittens.shift();
+  return kittens;
+}
+function destructivelyRemoveLastKitten() {
+  kittens.pop();
+  return kittens;
+}
 
 
 var kittens = ['Milo', 'Otis', 'Garfield'];
